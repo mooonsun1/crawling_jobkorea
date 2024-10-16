@@ -1,3 +1,3 @@
 # crawling_jobkorea
 Crawling_Jobkorea install
-bs4, requests, pandas, lxml, nest_asyncio, aiohttp
+bs4, requests, pandas, lxml, nest_asyncio, aiohttp , openpyxl
