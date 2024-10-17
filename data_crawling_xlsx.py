@@ -54,6 +54,9 @@ if __name__ == '__main__':
     sheet = excel.active
     sheet.title = f"{question} 직무 채용 공고"
     sheet.append(['회사명', '직무명' , '상세정보'])
+    sheet.column_dimensions['A'].width = 30
+    sheet.column_dimensions['B'].width = 80
+    sheet.column_dimensions['C'].width = 60
     [sheet.append(item) for subdata in pages_data for item in subdata]
     
     d = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
